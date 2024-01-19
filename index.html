@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
+    <!-- üst kısım -->
+    <header>
+      <div class="logo">
+        <a href="/">
+          <img src="/images/food-logo.png" alt="logo" />
+        </a>
+      </div>
+
+      <div class="form">
+        <form>
+          <input placeholder="örn:pizza,bbq" type="text" />
+          <button><span>Ara</span></button>
+        </form>
+      </div>
+
+      <div class="bookmark">
+        <div class="bm-area">
+          <button class="bm-button">
+            <i class="bi bi-bookmark-heart-fill"></i>
+          </button>
+
+          <div class="dropdown">
+            <!-- <a href="#dasda">
+                <img
+                  src="http://forkify-api.herokuapp.com/images/4021_MEDIUM8db8.jpg"
+                />
+                <span>Yemek ismi</span>
+              </a> -->
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- ana içerik -->
+    <main>
+      <section id="results">
+        <!-- <a href="#123">
+            <div class="img-wrapper">
+              <img
+                src="http://forkify-api.herokuapp.com/images/3341180a1f.jpg"
+                alt=""
+              />
+            </div>
+            <div class="info">
+              <h4>Coconut Poke Cake</h4>
+              <p>All Recipies</p>
+            </div>
+          </a> -->
+      </section>
+
+      <section id="recipe">
+        <!-- resim alanı -->
+        <!-- <figure>
+            <img
+              src="http://forkify-api.herokuapp.com/images/130_1_1350895958_lrg15e0.jpg"
+            />
+            <h1>Chicken tikka masala</h1>
+  
+            <div class="like-area">
+              <i class="bi bi-heart"></i>
+            </div>
+          </figure> -->
+
+        <!-- tarif -->
+        <!-- <div class="ingredients">
+            <ul>
+              <li>
+                <i class="bi bi-check-circle"></i>
+                <p>Salt And Pepper</p>
+              </li>
+              <li>
+                <i class="bi bi-check-circle"></i>
+                <p>1 whole Pork Butt (pork Shoulder Roast)</p>
+              </li>
+            </ul>
+  
+            <button id="add-to-cart" class="CartBtn">
+              <span class="IconContainer">
+                <i class="cart bi bi-cart-fill"></i>
+              </span>
+              <p class="text">Add to Cart</p>
+            </button>
+          </div> -->
+
+        <!-- nasıl pişirilir -->
+        <!-- <div class="directions">
+            <h2>Nasıl Pişirilir?</h2>
+  
+            <p>
+              Bu tarif dikkatlice
+              <span>The Pioneer Woman</span> tarafından hazırlanmış ve
+              test edilmiştir. Diğer detaylara onların websitesi
+              üzerinden erişebilirsiniz.
+            </p>
+  
+            <a href="/asdas" target="_blank">Yönerge</a>
+          </div> -->
+      </section>
+
+      <section id="cart">
+        <div>
+          <h2>Sepet</h2>
+          <button id="clear">Temizle</button>
+        </div>
+
+        <ul id="basket"></ul>
+      </section>
+    </main>
+
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/toastify-js"
+    ></script>
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>
